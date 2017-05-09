@@ -75,3 +75,44 @@ Decimal('3.1415926')
 ## math库的使用
 *math库不支持复数类型*
 ### 使用方法
+1. 使用import导入库
+采用`math.<b>()`的形式引用
+*注意，这种方法导入之后只能使用上述方式引用函数*
+2. 使用`from math import <functionName>` 或者 ` from math import *`形式
+这种形式可以直接采用` functionName()`形式使用，后者可以使用库内所有函数
+```
+# 1.例如
+>>>import math
+>>>math.ceil(10.2)
+11
+# 2. 例如
+>>>from math import *
+>>>floor(10.2)
+10
+```
+### math库
+* 包含4个数学常数
+>    *  math.pi
+    *  math.e
+    *  math.inf *正无穷*
+    *  math.nan *非浮点数标记*
+* 数值表示函数
+    * fabs(x): |x|
+    * fmod(x, y): x % y
+    * fsum([x, y, ...]): max in []
+    * ceil(x): 
+    * floor(x): 
+    * factorial(x): x! 
+    * gcd(a, b)
+    * frepx(x): (m, e) *x = m \* 2 \* e*
+    * ldexp(x, i): x \* 2 
+    * modf(x): x的小数和整数部分
+    * trunc(x): x的整数部分
+    * copysign(x, y): \|x\| \* \|y\| / y *用数值y的正负号替换x的正负号*
+    * isclose(a, b): True 或 False *比较a和b的相似性*
+    * isfinite(x): True 或 False *x是否是无穷大*
+    * isinf(x): True 或 False  * x是否是整数或者负无穷大*
+    * isnan(x): True 或 False *x是否是NaN*
+* 幂对数函数
+* 三角运算函数
+* 高等特殊函数

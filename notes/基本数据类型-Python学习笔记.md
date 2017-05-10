@@ -58,14 +58,36 @@ Decimal('3.1415926')
 *数值运算的结果是生成更宽的类*
 
 ### 数值运算的内置函数
-| 函数                  |描述
-| abs()                 | 绝对值
-| divmod(x, y)          | (x//y, x%y) *元祖*
-| pow(x, y[,z])         | (x\*\*y)%z *z可以省略* 
-| round(x[,y])          | 四舍五入，保留y位小数
-| max(x1, x2, x3, ...)  | 最大值
-| min(x1, x2, x3, ...)  | 最小值
-
+<table>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+<tr>
+<td>abs()</td>
+<td>绝对值</td>
+</tr>
+<tr>
+<td>divmod(x, y)</td>
+<td>(x//y, x%y) （返回值是一个元祖）</td>
+</tr>
+<tr>
+<td>pow(x, y[,z])</td>
+<td>(x**y)%z （z可以省略） </td>
+</tr>
+<tr>
+<td>round(x[,y])</td>
+<td>四舍五入，保留y位小数</td>
+</tr>
+<tr>
+<td>max(x1, x2, x3, ...)</td>
+<td>最大值</td>
+</tr>
+<tr>
+<td> min(x1, x2, x3, ...)</td>
+<td>最小值</td>
+</tr>
+</table>
 ### 内置数字类型转换函数
 * float(x)
 * int(x)

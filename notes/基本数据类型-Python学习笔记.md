@@ -58,13 +58,13 @@ Decimal('3.1415926')
 *数值运算的结果是生成更宽的类*
 
 ### 数值运算的内置函数
-| 函数|描述
-| abs()| 绝对值
-| divmod(x, y) | (x//y, x%y) *元祖*
-| pow(x, y[,z]) | (x\*\*y)%z *z可以省略* 
-| round(x[,y]) | 四舍五入，保留y位小数
-| max(x1, x2, x3, ...)| 最大值
-| min(x1, x2, x3, ...)| 最小值
+| 函数                  |描述
+| abs()                 | 绝对值
+| divmod(x, y)          | (x//y, x%y) *元祖*
+| pow(x, y[,z])         | (x\*\*y)%z *z可以省略* 
+| round(x[,y])          | 四舍五入，保留y位小数
+| max(x1, x2, x3, ...)  | 最大值
+| min(x1, x2, x3, ...)  | 最小值
 
 ### 内置数字类型转换函数
 * float(x)
@@ -91,28 +91,28 @@ Decimal('3.1415926')
 10
 ```
 ### math库
-* 包含4个数学常数
->    *  math.pi
-    *  math.e
-    *  math.inf *正无穷*
-    *  math.nan *非浮点数标记*
-* 数值表示函数
-    * fabs(x): |x|
-    * fmod(x, y): x % y
-    * fsum([x, y, ...]): max in []
-    * ceil(x): 
-    * floor(x): 
-    * factorial(x): x! 
-    * gcd(a, b)
-    * frepx(x): (m, e) *x = m \* 2 \* e*
-    * ldexp(x, i): x \* 2 
-    * modf(x): x的小数和整数部分
-    * trunc(x): x的整数部分
-    * copysign(x, y): \|x\| \* \|y\| / y *用数值y的正负号替换x的正负号*
-    * isclose(a, b): True 或 False *比较a和b的相似性*
-    * isfinite(x): True 或 False *x是否是无穷大*
-    * isinf(x): True 或 False  * x是否是整数或者负无穷大*
-    * isnan(x): True 或 False *x是否是NaN*
-* 幂对数函数
-* 三角运算函数
-* 高等特殊函数
+1. 包含4个数学常数
+ * math.pi
+ * math.e
+ * math.inf *正无穷*
+ * math.nan *非浮点数标记*
+2. 数值表示函数
+ * fabs(x): |x|
+ * fmod(x, y): x % y
+ * fsum([x, y, ...]): max in []
+ * ceil(x): 
+ * floor(x): 
+ * factorial(x): x! 
+ * gcd(a, b)
+ * frepx(x): (m, e) *x = m \* 2 \* e*
+ * ldexp(x, i): x \* 2 
+ * modf(x): x的小数和整数部分
+ * trunc(x): x的整数部分
+ * copysign(x, y): \|x\| \* \|y\| / y *用数值y的正负号替换x的正负号*
+ * isclose(a, b): True 或 False *比较a和b的相似性*
+ * isfinite(x): True 或 False *x是否是无穷大*
+ * isinf(x): True 或 False  * x是否是整数或者负无穷大*
+ * isnan(x): True 或 False *x是否是NaN*
+3. 幂对数函数
+4. 三角运算函数
+5. 高等特殊函数

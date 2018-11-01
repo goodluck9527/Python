@@ -1,0 +1,1000 @@
+    4  openstack compute service list
+    5  openstack catelog list
+    6  openstack catalog list
+    7  su -s /bin/sh -c "nova-manage db sync" nova
+    8  openstack compute service list
+    9  vim /etc/nova/nova.conf 
+   10  grep -n ^[a-z]/etc/nove/nova.conf
+   11  grep -n ^[a-z]/etc/noae/nova.conf
+   12  grep -n ^[a-z]/etc/nova/nova.conf
+   13  grep -n ^[a-z] /etc/nova/nova.conf
+   14  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+   15  su -s /bin/sh -c "nova-manage db sync" nova
+   16   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+   17  openstack compute service list
+   18  vim /etc/hosts
+   19  top
+   20  tail -f /var/log/nova/nova-compute.log 
+   21  systemctl status rabbitmq-server.service 
+   22  vim /etc/nova/nova.conf 
+   23  su -s /bin/sh -c "nova-manage db sync" nova
+   24  vim /etc/nova/nova.conf 
+   25  tail -f /var/log/nova/nova-compute.log 
+   26  vim /etc/nova/nova.conf 
+   27  su -s /bin/sh -c "nova-manage db sync" nova
+   28  top
+   29  tail -f /var/log/nova/nova-compute.log 
+   30  ping localhost
+   31  tail /var/log/messages
+   32  tail -f /var/log/messages
+   33  tail -100 /var/log/messages
+   34  systemctl status openstack-nova-api.service
+   35  cd /var/log/
+   36  ls
+   37  cd nova/
+   38  ls
+   39  tail nova-conductor.log 
+   40  tail -f nova-conductor.log 
+   41  cd ..
+   42  l
+   43  cd ..
+   44  ls
+   45  cd log/
+   46  ls
+   47  cd nova/
+   48  ls
+   49  tail -f nova-scheduler.log 
+   50  systemctl openstack-nova-scheduler.service status
+   51  systemctl status openstack-nova-scheduler.service 
+   52  systemctl stop openstack-nova-scheduler.service 
+   53  systemctl start openstack-nova-scheduler.service 
+   54  systemctl status openstack-nova-scheduler.service 
+   55  systemctl status openstack-nova-scheduler.service -l
+   56  ls
+   57  tail nova-compute.log 
+   58  ls
+   59  cat nova-api.log 
+   60  ls
+   61  tail nova-scheduler.log 
+   62  ls
+   63  tail nova-consoleauth.log 
+   64  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+   65  echo $?
+   66  su -s /bin/sh -c "nova-manage db sync" nova
+   67  echo $?
+   68  vim /etc/nova/nova.conf 
+   69  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+   70  systemctl status openstack-nova-scheduler.service 
+   71  ls
+   72   tail -f nova-scheduler.log 
+   73   tail -f nova-conductor.log 
+   74   tail 100 nova-conductor.log 
+   75  su
+   76  rabbit_host = controller
+   77  rabbit_userid = openstack
+   78  su -s /bin/sh -c "nova-manage api_db sync" nova
+   79  su -s /bin/sh -c "nova-manage db sync" nova
+   80   tail 100 nova-conductor.log 
+   81  openstack compute service list
+   82  cd /home/chy/openstack/
+   83  ls
+   84  . admin-openrc 
+   85  openstack compute service list
+   86  vim /etc/nova/nova.conf 
+   87  openstack compute service delete 10 11 12 13 
+   88  openstack compute service delete 1 2 3 
+   89  tail -f /var/log/messages
+   90  openstack compute service list
+   91  service nova-cert start
+   92  openstack compute service list
+   93  tail /var/log/nova/nova-compute.log 
+   94  tail -f /var/log/nova/nova-compute.log 
+   95  openstack compute service list
+   96  openstack compute service delete 14 15 17 18
+   97  openstack compute service list
+   98  tail -f /var/log/nova/nova-compute.log 
+   99  tail -f /var/log/nova/nova-conductor.log
+  100  openstack compute service list
+  101  vim /etc/nova/nova.conf 
+  102  openstack compute service delete 19 20 21 22
+  103  openstack compute service list
+  104  openstack catelog list
+  105  openstack catalog list
+  106  su -s /bin/sh -c "nova-manage db sync" nova
+  107  openstack compute service list
+  108  vim /etc/nova/nova.conf 
+  109  grep -n ^[a-z]/etc/nove/nova.conf
+  110  grep -n ^[a-z]/etc/noae/nova.conf
+  111  grep -n ^[a-z]/etc/nova/nova.conf
+  112  grep -n ^[a-z] /etc/nova/nova.conf
+  113  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  114  su -s /bin/sh -c "nova-manage db sync" nova
+  115   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  116  openstack compute service list
+  117  vim /etc/hosts
+  118  top
+  119  tail -f /var/log/nova/nova-compute.log 
+  120  systemctl status rabbitmq-server.service 
+  121  vim /etc/nova/nova.conf 
+  122  su -s /bin/sh -c "nova-manage db sync" nova
+  123  vim /etc/nova/nova.conf 
+  124  tail -f /var/log/nova/nova-compute.log 
+  125  vim /etc/nova/nova.conf 
+  126  su -s /bin/sh -c "nova-manage db sync" nova
+  127  top
+  128  tail -f /var/log/nova/nova-compute.log 
+  129  ping localhost
+  130  tail /var/log/messages
+  131  tail -f /var/log/messages
+  132  tail -100 /var/log/messages
+  133  systemctl status openstack-nova-api.service
+  134  cd /var/log/
+  135  ls
+  136  cd nova/
+  137  ls
+  138  tail nova-conductor.log 
+  139  tail -f nova-conductor.log 
+  140  cd ..
+  141  l
+  142  cd ..
+  143  ls
+  144  cd log/
+  145  ls
+  146  cd nova/
+  147  ls
+  148  tail -f nova-scheduler.log 
+  149  systemctl openstack-nova-scheduler.service status
+  150  systemctl status openstack-nova-scheduler.service 
+  151  systemctl stop openstack-nova-scheduler.service 
+  152  systemctl start openstack-nova-scheduler.service 
+  153  systemctl status openstack-nova-scheduler.service 
+  154  systemctl status openstack-nova-scheduler.service -l
+  155  ls
+  156  tail nova-compute.log 
+  157  ls
+  158  cat nova-api.log 
+  159  ls
+  160  tail nova-scheduler.log 
+  161  ls
+  162  tail nova-consoleauth.log 
+  163  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  164  echo $?
+  165  su -s /bin/sh -c "nova-manage db sync" nova
+  166  echo $?
+  167  vim /etc/nova/nova.conf 
+  168  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  169  systemctl status openstack-nova-scheduler.service 
+  170  ls
+  171   tail -f nova-scheduler.log 
+  172   tail -f nova-conductor.log 
+  173   tail 100 nova-conductor.log 
+  174  su
+  175  rabbit_host = controller
+  176  rabbit_userid = openstack
+  177  su -s /bin/sh -c "nova-manage api_db sync" nova
+  178  su -s /bin/sh -c "nova-manage db sync" nova
+  179   tail 100 nova-conductor.log 
+  180  openstack compute service list
+  181  cd /home/chy/openstack/
+  182  ls
+  183  . admin-openrc 
+  184  openstack compute service list
+  185  vim /etc/nova/nova.conf 
+  186  openstack compute service delete 10 11 12 13 
+  187  openstack compute service delete 1 2 3 
+  188  tail -f /var/log/messages
+  189  openstack compute service list
+  190  service nova-cert start
+  191  openstack compute service list
+  192  tail /var/log/nova/nova-compute.log 
+  193  tail -f /var/log/nova/nova-compute.log 
+  194  openstack compute service list
+  195  openstack compute service delete 14 15 17 18
+  196  openstack compute service list
+  197  tail -f /var/log/nova/nova-compute.log 
+  198  tail -f /var/log/nova/nova-conductor.log
+  199  openstack compute service list
+  200  vim /etc/nova/nova.conf 
+  201  openstack compute service delete 19 20 21 22
+  202  openstack compute service list
+  203  openstack catelog list
+  204  openstack catalog list
+  205  su -s /bin/sh -c "nova-manage db sync" nova
+  206  openstack compute service list
+  207  vim /etc/nova/nova.conf 
+  208  grep -n ^[a-z]/etc/nove/nova.conf
+  209  grep -n ^[a-z]/etc/noae/nova.conf
+  210  grep -n ^[a-z]/etc/nova/nova.conf
+  211  grep -n ^[a-z] /etc/nova/nova.conf
+  212  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  213  su -s /bin/sh -c "nova-manage db sync" nova
+  214   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  215  openstack compute service list
+  216  vim /etc/hosts
+  217  top
+  218  tail -f /var/log/nova/nova-compute.log 
+  219  systemctl status rabbitmq-server.service 
+  220  vim /etc/nova/nova.conf 
+  221  su -s /bin/sh -c "nova-manage db sync" nova
+  222  vim /etc/nova/nova.conf 
+  223  tail -f /var/log/nova/nova-compute.log 
+  224  vim /etc/nova/nova.conf 
+  225  su -s /bin/sh -c "nova-manage db sync" nova
+  226  top
+  227  tail -f /var/log/nova/nova-compute.log 
+  228  ping localhost
+  229  tail /var/log/messages
+  230  tail -f /var/log/messages
+  231  tail -100 /var/log/messages
+  232  systemctl status openstack-nova-api.service
+  233  cd /var/log/
+  234  ls
+  235  cd nova/
+  236  ls
+  237  tail nova-conductor.log 
+  238  tail -f nova-conductor.log 
+  239  cd ..
+  240  l
+  241  cd ..
+  242  ls
+  243  cd log/
+  244  ls
+  245  cd nova/
+  246  ls
+  247  tail -f nova-scheduler.log 
+  248  systemctl openstack-nova-scheduler.service status
+  249  systemctl status openstack-nova-scheduler.service 
+  250  systemctl stop openstack-nova-scheduler.service 
+  251  systemctl start openstack-nova-scheduler.service 
+  252  systemctl status openstack-nova-scheduler.service 
+  253  systemctl status openstack-nova-scheduler.service -l
+  254  ls
+  255  tail nova-compute.log 
+  256  ls
+  257  cat nova-api.log 
+  258  ls
+  259  tail nova-scheduler.log 
+  260  ls
+  261  tail nova-consoleauth.log 
+  262  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  263  echo $?
+  264  su -s /bin/sh -c "nova-manage db sync" nova
+  265  echo $?
+  266  vim /etc/nova/nova.conf 
+  267  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  268  systemctl status openstack-nova-scheduler.service 
+  269  ls
+  270   tail -f nova-scheduler.log 
+  271   tail -f nova-conductor.log 
+  272   tail 100 nova-conductor.log 
+  273  su
+  274  rabbit_host = controller
+  275  rabbit_userid = openstack
+  276  su -s /bin/sh -c "nova-manage api_db sync" nova
+  277  su -s /bin/sh -c "nova-manage db sync" nova
+  278   tail 100 nova-conductor.log 
+  279  openstack compute service list
+  280  cd /home/chy/openstack/
+  281  ls
+  282  . admin-openrc 
+  283  openstack compute service list
+  284  vim /etc/nova/nova.conf 
+  285  openstack compute service delete 10 11 12 13 
+  286  openstack compute service delete 1 2 3 
+  287  tail -f /var/log/messages
+  288  openstack compute service list
+  289  service nova-cert start
+  290  openstack compute service list
+  291  tail /var/log/nova/nova-compute.log 
+  292  tail -f /var/log/nova/nova-compute.log 
+  293  openstack compute service list
+  294  openstack compute service delete 14 15 17 18
+  295  openstack compute service list
+  296  tail -f /var/log/nova/nova-compute.log 
+  297  tail -f /var/log/nova/nova-conductor.log
+  298  openstack compute service list
+  299  vim /etc/nova/nova.conf 
+  300  openstack compute service delete 19 20 21 22
+  301  openstack compute service list
+  302  openstack catelog list
+  303  openstack catalog list
+  304  su -s /bin/sh -c "nova-manage db sync" nova
+  305  openstack compute service list
+  306  vim /etc/nova/nova.conf 
+  307  grep -n ^[a-z]/etc/nove/nova.conf
+  308  grep -n ^[a-z]/etc/noae/nova.conf
+  309  grep -n ^[a-z]/etc/nova/nova.conf
+  310  grep -n ^[a-z] /etc/nova/nova.conf
+  311  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  312  su -s /bin/sh -c "nova-manage db sync" nova
+  313   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  314  openstack compute service list
+  315  vim /etc/hosts
+  316  top
+  317  tail -f /var/log/nova/nova-compute.log 
+  318  systemctl status rabbitmq-server.service 
+  319  vim /etc/nova/nova.conf 
+  320  su -s /bin/sh -c "nova-manage db sync" nova
+  321  vim /etc/nova/nova.conf 
+  322  tail -f /var/log/nova/nova-compute.log 
+  323  vim /etc/nova/nova.conf 
+  324  su -s /bin/sh -c "nova-manage db sync" nova
+  325  top
+  326  tail -f /var/log/nova/nova-compute.log 
+  327  ping localhost
+  328  tail /var/log/messages
+  329  tail -f /var/log/messages
+  330  tail -100 /var/log/messages
+  331  systemctl status openstack-nova-api.service
+  332  cd /var/log/
+  333  ls
+  334  cd nova/
+  335  ls
+  336  tail nova-conductor.log 
+  337  tail -f nova-conductor.log 
+  338  cd ..
+  339  l
+  340  cd ..
+  341  ls
+  342  cd log/
+  343  ls
+  344  cd nova/
+  345  ls
+  346  tail -f nova-scheduler.log 
+  347  systemctl openstack-nova-scheduler.service status
+  348  systemctl status openstack-nova-scheduler.service 
+  349  systemctl stop openstack-nova-scheduler.service 
+  350  systemctl start openstack-nova-scheduler.service 
+  351  systemctl status openstack-nova-scheduler.service 
+  352  systemctl status openstack-nova-scheduler.service -l
+  353  ls
+  354  tail nova-compute.log 
+  355  ls
+  356  cat nova-api.log 
+  357  ls
+  358  tail nova-scheduler.log 
+  359  ls
+  360  tail nova-consoleauth.log 
+  361  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  362  echo $?
+  363  su -s /bin/sh -c "nova-manage db sync" nova
+  364  echo $?
+  365  vim /etc/nova/nova.conf 
+  366  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  367  systemctl status openstack-nova-scheduler.service 
+  368  ls
+  369   tail -f nova-scheduler.log 
+  370   tail -f nova-conductor.log 
+  371   tail 100 nova-conductor.log 
+  372  su
+  373  rabbit_host = controller
+  374  rabbit_userid = openstack
+  375  su -s /bin/sh -c "nova-manage api_db sync" nova
+  376  su -s /bin/sh -c "nova-manage db sync" nova
+  377   tail 100 nova-conductor.log 
+  378  openstack compute service list
+  379  cd /home/chy/openstack/
+  380  ls
+  381  . admin-openrc 
+  382  openstack compute service list
+  383  vim /etc/nova/nova.conf 
+  384  openstack compute service delete 10 11 12 13 
+  385  openstack compute service delete 1 2 3 
+  386  tail -f /var/log/messages
+  387  openstack compute service list
+  388  service nova-cert start
+  389  openstack compute service list
+  390  tail /var/log/nova/nova-compute.log 
+  391  tail -f /var/log/nova/nova-compute.log 
+  392  openstack compute service list
+  393  openstack compute service delete 14 15 17 18
+  394  openstack compute service list
+  395  tail -f /var/log/nova/nova-compute.log 
+  396  tail -f /var/log/nova/nova-conductor.log
+  397  openstack compute service list
+  398  vim /etc/nova/nova.conf 
+  399  openstack compute service delete 19 20 21 22
+  400  openstack compute service list
+  401  openstack catelog list
+  402  openstack catalog list
+  403  su -s /bin/sh -c "nova-manage db sync" nova
+  404  openstack compute service list
+  405  vim /etc/nova/nova.conf 
+  406  grep -n ^[a-z]/etc/nove/nova.conf
+  407  grep -n ^[a-z]/etc/noae/nova.conf
+  408  grep -n ^[a-z]/etc/nova/nova.conf
+  409  grep -n ^[a-z] /etc/nova/nova.conf
+  410  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  411  su -s /bin/sh -c "nova-manage db sync" nova
+  412   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  413  openstack compute service list
+  414  vim /etc/hosts
+  415  top
+  416  tail -f /var/log/nova/nova-compute.log 
+  417  systemctl status rabbitmq-server.service 
+  418  vim /etc/nova/nova.conf 
+  419  su -s /bin/sh -c "nova-manage db sync" nova
+  420  vim /etc/nova/nova.conf 
+  421  tail -f /var/log/nova/nova-compute.log 
+  422  vim /etc/nova/nova.conf 
+  423  su -s /bin/sh -c "nova-manage db sync" nova
+  424  top
+  425  tail -f /var/log/nova/nova-compute.log 
+  426  ping localhost
+  427  tail /var/log/messages
+  428  tail -f /var/log/messages
+  429  tail -100 /var/log/messages
+  430  systemctl status openstack-nova-api.service
+  431  cd /var/log/
+  432  ls
+  433  cd nova/
+  434  ls
+  435  tail nova-conductor.log 
+  436  tail -f nova-conductor.log 
+  437  cd ..
+  438  l
+  439  cd ..
+  440  ls
+  441  cd log/
+  442  ls
+  443  cd nova/
+  444  ls
+  445  tail -f nova-scheduler.log 
+  446  systemctl openstack-nova-scheduler.service status
+  447  systemctl status openstack-nova-scheduler.service 
+  448  systemctl stop openstack-nova-scheduler.service 
+  449  systemctl start openstack-nova-scheduler.service 
+  450  systemctl status openstack-nova-scheduler.service 
+  451  systemctl status openstack-nova-scheduler.service -l
+  452  ls
+  453  tail nova-compute.log 
+  454  ls
+  455  cat nova-api.log 
+  456  ls
+  457  tail nova-scheduler.log 
+  458  ls
+  459  tail nova-consoleauth.log 
+  460  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  461  echo $?
+  462  su -s /bin/sh -c "nova-manage db sync" nova
+  463  echo $?
+  464  vim /etc/nova/nova.conf 
+  465  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  466  systemctl status openstack-nova-scheduler.service 
+  467  ls
+  468   tail -f nova-scheduler.log 
+  469   tail -f nova-conductor.log 
+  470   tail 100 nova-conductor.log 
+  471  su
+  472  rabbit_host = controller
+  473  rabbit_userid = openstack
+  474  su -s /bin/sh -c "nova-manage api_db sync" nova
+  475  su -s /bin/sh -c "nova-manage db sync" nova
+  476   tail 100 nova-conductor.log 
+  477  openstack compute service list
+  478  cd /home/chy/openstack/
+  479  ls
+  480  . admin-openrc 
+  481  openstack compute service list
+  482  vim /etc/nova/nova.conf 
+  483  openstack compute service delete 10 11 12 13 
+  484  openstack compute service delete 1 2 3 
+  485  tail -f /var/log/messages
+  486  openstack compute service list
+  487  service nova-cert start
+  488  openstack compute service list
+  489  tail /var/log/nova/nova-compute.log 
+  490  tail -f /var/log/nova/nova-compute.log 
+  491  openstack compute service list
+  492  openstack compute service delete 14 15 17 18
+  493  openstack compute service list
+  494  tail -f /var/log/nova/nova-compute.log 
+  495  tail -f /var/log/nova/nova-conductor.log
+  496  openstack compute service list
+  497  vim /etc/nova/nova.conf 
+  498  openstack compute service delete 19 20 21 22
+  499  openstack compute service list
+  500  openstack catelog list
+  501  openstack catalog list
+  502  su -s /bin/sh -c "nova-manage db sync" nova
+  503  openstack compute service list
+  504  vim /etc/nova/nova.conf 
+  505  grep -n ^[a-z]/etc/nove/nova.conf
+  506  grep -n ^[a-z]/etc/noae/nova.conf
+  507  grep -n ^[a-z]/etc/nova/nova.conf
+  508  grep -n ^[a-z] /etc/nova/nova.conf
+  509  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  510  su -s /bin/sh -c "nova-manage db sync" nova
+  511   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  512  openstack compute service list
+  513  vim /etc/hosts
+  514  top
+  515  tail -f /var/log/nova/nova-compute.log 
+  516  systemctl status rabbitmq-server.service 
+  517  vim /etc/nova/nova.conf 
+  518  su -s /bin/sh -c "nova-manage db sync" nova
+  519  vim /etc/nova/nova.conf 
+  520  tail -f /var/log/nova/nova-compute.log 
+  521  vim /etc/nova/nova.conf 
+  522  su -s /bin/sh -c "nova-manage db sync" nova
+  523  top
+  524  tail -f /var/log/nova/nova-compute.log 
+  525  ping localhost
+  526  tail /var/log/messages
+  527  tail -f /var/log/messages
+  528  tail -100 /var/log/messages
+  529  systemctl status openstack-nova-api.service
+  530  cd /var/log/
+  531  ls
+  532  cd nova/
+  533  ls
+  534  tail nova-conductor.log 
+  535  tail -f nova-conductor.log 
+  536  cd ..
+  537  l
+  538  cd ..
+  539  ls
+  540  cd log/
+  541  ls
+  542  cd nova/
+  543  ls
+  544  tail -f nova-scheduler.log 
+  545  systemctl openstack-nova-scheduler.service status
+  546  systemctl status openstack-nova-scheduler.service 
+  547  systemctl stop openstack-nova-scheduler.service 
+  548  systemctl start openstack-nova-scheduler.service 
+  549  systemctl status openstack-nova-scheduler.service 
+  550  systemctl status openstack-nova-scheduler.service -l
+  551  ls
+  552  tail nova-compute.log 
+  553  ls
+  554  cat nova-api.log 
+  555  ls
+  556  tail nova-scheduler.log 
+  557  ls
+  558  tail nova-consoleauth.log 
+  559  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  560  echo $?
+  561  su -s /bin/sh -c "nova-manage db sync" nova
+  562  echo $?
+  563  vim /etc/nova/nova.conf 
+  564  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  565  systemctl status openstack-nova-scheduler.service 
+  566  ls
+  567   tail -f nova-scheduler.log 
+  568   tail -f nova-conductor.log 
+  569   tail 100 nova-conductor.log 
+  570  su
+  571  rabbit_host = controller
+  572  rabbit_userid = openstack
+  573  su -s /bin/sh -c "nova-manage api_db sync" nova
+  574  su -s /bin/sh -c "nova-manage db sync" nova
+  575   tail 100 nova-conductor.log 
+  576  openstack compute service list
+  577  cd /home/chy/openstack/
+  578  ls
+  579  . admin-openrc 
+  580  openstack compute service list
+  581  vim /etc/nova/nova.conf 
+  582  openstack compute service delete 10 11 12 13 
+  583  openstack compute service delete 1 2 3 
+  584  tail -f /var/log/messages
+  585  openstack compute service list
+  586  service nova-cert start
+  587  openstack compute service list
+  588  tail /var/log/nova/nova-compute.log 
+  589  tail -f /var/log/nova/nova-compute.log 
+  590  openstack compute service list
+  591  openstack compute service delete 14 15 17 18
+  592  openstack compute service list
+  593  tail -f /var/log/nova/nova-compute.log 
+  594  tail -f /var/log/nova/nova-conductor.log
+  595  openstack compute service list
+  596  vim /etc/nova/nova.conf 
+  597  openstack compute service delete 19 20 21 22
+  598  openstack compute service list
+  599  openstack catelog list
+  600  openstack catalog list
+  601  su -s /bin/sh -c "nova-manage db sync" nova
+  602  openstack compute service list
+  603  vim /etc/nova/nova.conf 
+  604  grep -n ^[a-z]/etc/nove/nova.conf
+  605  grep -n ^[a-z]/etc/noae/nova.conf
+  606  grep -n ^[a-z]/etc/nova/nova.conf
+  607  grep -n ^[a-z] /etc/nova/nova.conf
+  608  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  609  su -s /bin/sh -c "nova-manage db sync" nova
+  610   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  611  openstack compute service list
+  612  vim /etc/hosts
+  613  top
+  614  tail -f /var/log/nova/nova-compute.log 
+  615  systemctl status rabbitmq-server.service 
+  616  vim /etc/nova/nova.conf 
+  617  su -s /bin/sh -c "nova-manage db sync" nova
+  618  vim /etc/nova/nova.conf 
+  619  tail -f /var/log/nova/nova-compute.log 
+  620  vim /etc/nova/nova.conf 
+  621  su -s /bin/sh -c "nova-manage db sync" nova
+  622  top
+  623  tail -f /var/log/nova/nova-compute.log 
+  624  ping localhost
+  625  tail /var/log/messages
+  626  tail -f /var/log/messages
+  627  tail -100 /var/log/messages
+  628  systemctl status openstack-nova-api.service
+  629  cd /var/log/
+  630  ls
+  631  cd nova/
+  632  ls
+  633  tail nova-conductor.log 
+  634  tail -f nova-conductor.log 
+  635  cd ..
+  636  l
+  637  cd ..
+  638  ls
+  639  cd log/
+  640  ls
+  641  cd nova/
+  642  ls
+  643  tail -f nova-scheduler.log 
+  644  systemctl openstack-nova-scheduler.service status
+  645  systemctl status openstack-nova-scheduler.service 
+  646  systemctl stop openstack-nova-scheduler.service 
+  647  systemctl start openstack-nova-scheduler.service 
+  648  systemctl status openstack-nova-scheduler.service 
+  649  systemctl status openstack-nova-scheduler.service -l
+  650  ls
+  651  tail nova-compute.log 
+  652  ls
+  653  cat nova-api.log 
+  654  ls
+  655  tail nova-scheduler.log 
+  656  ls
+  657  tail nova-consoleauth.log 
+  658  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  659  echo $?
+  660  su -s /bin/sh -c "nova-manage db sync" nova
+  661  echo $?
+  662  vim /etc/nova/nova.conf 
+  663  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  664  systemctl status openstack-nova-scheduler.service 
+  665  ls
+  666   tail -f nova-scheduler.log 
+  667   tail -f nova-conductor.log 
+  668   tail 100 nova-conductor.log 
+  669  su
+  670  rabbit_host = controller
+  671  rabbit_userid = openstack
+  672  su -s /bin/sh -c "nova-manage api_db sync" nova
+  673  su -s /bin/sh -c "nova-manage db sync" nova
+  674   tail 100 nova-conductor.log 
+  675  openstack compute service list
+  676  cd /home/chy/openstack/
+  677  ls
+  678  . admin-openrc 
+  679  openstack compute service list
+  680  vim /etc/nova/nova.conf 
+  681  openstack compute service delete 10 11 12 13 
+  682  openstack compute service delete 1 2 3 
+  683  tail -f /var/log/messages
+  684  openstack compute service list
+  685  service nova-cert start
+  686  openstack compute service list
+  687  tail /var/log/nova/nova-compute.log 
+  688  tail -f /var/log/nova/nova-compute.log 
+  689  openstack compute service list
+  690  openstack compute service delete 14 15 17 18
+  691  openstack compute service list
+  692  tail -f /var/log/nova/nova-compute.log 
+  693  tail -f /var/log/nova/nova-conductor.log
+  694  openstack compute service list
+  695  vim /etc/nova/nova.conf 
+  696  openstack compute service delete 19 20 21 22
+  697  openstack compute service list
+  698  openstack catelog list
+  699  openstack catalog list
+  700  su -s /bin/sh -c "nova-manage db sync" nova
+  701  openstack compute service list
+  702  vim /etc/nova/nova.conf 
+  703  grep -n ^[a-z]/etc/nove/nova.conf
+  704  grep -n ^[a-z]/etc/noae/nova.conf
+  705  grep -n ^[a-z]/etc/nova/nova.conf
+  706  grep -n ^[a-z] /etc/nova/nova.conf
+  707  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  708  su -s /bin/sh -c "nova-manage db sync" nova
+  709   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  710  openstack compute service list
+  711  vim /etc/hosts
+  712  top
+  713  tail -f /var/log/nova/nova-compute.log 
+  714  systemctl status rabbitmq-server.service 
+  715  vim /etc/nova/nova.conf 
+  716  su -s /bin/sh -c "nova-manage db sync" nova
+  717  vim /etc/nova/nova.conf 
+  718  tail -f /var/log/nova/nova-compute.log 
+  719  vim /etc/nova/nova.conf 
+  720  su -s /bin/sh -c "nova-manage db sync" nova
+  721  top
+  722  tail -f /var/log/nova/nova-compute.log 
+  723  ping localhost
+  724  shutdown -h now
+  725  tail /var/log/messages
+  726  tail -f /var/log/messages
+  727  tail -100 /var/log/messages
+  728  systemctl status openstack-nova-api.service
+  729  cd /var/log/
+  730  ls
+  731  cd nova/
+  732  ls
+  733  tail nova-conductor.log 
+  734  tail -f nova-conductor.log 
+  735  cd ..
+  736  l
+  737  cd ..
+  738  ls
+  739  cd log/
+  740  ls
+  741  cd nova/
+  742  ls
+  743  tail -f nova-scheduler.log 
+  744  systemctl openstack-nova-scheduler.service status
+  745  systemctl status openstack-nova-scheduler.service 
+  746  systemctl stop openstack-nova-scheduler.service 
+  747  systemctl start openstack-nova-scheduler.service 
+  748  systemctl status openstack-nova-scheduler.service 
+  749  systemctl status openstack-nova-scheduler.service -l
+  750  ls
+  751  tail nova-compute.log 
+  752  ls
+  753  cat nova-api.log 
+  754  ls
+  755  tail nova-scheduler.log 
+  756  ls
+  757  tail nova-consoleauth.log 
+  758  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  759  echo $?
+  760  su -s /bin/sh -c "nova-manage db sync" nova
+  761  echo $?
+  762  vim /etc/nova/nova.conf 
+  763  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  764  systemctl status openstack-nova-scheduler.service 
+  765  ls
+  766   tail -f nova-scheduler.log 
+  767   tail -f nova-conductor.log 
+  768   tail 100 nova-conductor.log 
+  769  su
+  770  rabbit_host = controller
+  771  rabbit_userid = openstack
+  772  su -s /bin/sh -c "nova-manage api_db sync" nova
+  773  su -s /bin/sh -c "nova-manage db sync" nova
+  774   tail 100 nova-conductor.log 
+  775  openstack compute service list
+  776  cd /home/chy/openstack/
+  777  ls
+  778  . admin-openrc 
+  779  openstack compute service list
+  780  vim /etc/nova/nova.conf 
+  781  openstack compute service delete 10 11 12 13 
+  782  openstack compute service delete 1 2 3 
+  783  tail -f /var/log/messages
+  784  openstack compute service list
+  785  service nova-cert start
+  786  openstack compute service list
+  787  tail /var/log/nova/nova-compute.log 
+  788  tail -f /var/log/nova/nova-compute.log 
+  789  openstack compute service list
+  790  openstack compute service delete 14 15 17 18
+  791  openstack compute service list
+  792  tail -f /var/log/nova/nova-compute.log 
+  793  tail -f /var/log/nova/nova-conductor.log
+  794  openstack compute service list
+  795  vim /etc/nova/nova.conf 
+  796  openstack compute service delete 19 20 21 22
+  797  openstack compute service list
+  798  openstack catelog list
+  799  openstack catalog list
+  800  su -s /bin/sh -c "nova-manage db sync" nova
+  801  openstack compute service list
+  802  vim /etc/nova/nova.conf 
+  803  grep -n ^[a-z]/etc/nove/nova.conf
+  804  grep -n ^[a-z]/etc/noae/nova.conf
+  805  grep -n ^[a-z]/etc/nova/nova.conf
+  806  grep -n ^[a-z] /etc/nova/nova.conf
+  807  yum reinstall openstack-nova-api openstack-nova-cert   openstack-nova-conductor openstack-nova-console   openstack-nova-novncproxy openstack-nova-scheduler   python-novaclient
+  808  su -s /bin/sh -c "nova-manage db sync" nova
+  809   systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  810  openstack compute service list
+  811  vim /etc/hosts
+  812  top
+  813  tail -f /var/log/nova/nova-compute.log 
+  814  systemctl status rabbitmq-server.service 
+  815  vim /etc/nova/nova.conf 
+  816  su -s /bin/sh -c "nova-manage db sync" nova
+  817  vim /etc/nova/nova.conf 
+  818  tail -f /var/log/nova/nova-compute.log 
+  819  vim /etc/nova/nova.conf 
+  820  su -s /bin/sh -c "nova-manage db sync" nova
+  821  top
+  822  tail -f /var/log/nova/nova-compute.log 
+  823  ping localhost
+  824  shutdown -h now
+  825  systemctl restart rabbitmq-server.service 
+  826  echo $?
+  827  tail /var/log/messages
+  828  tail -f /var/log/messages
+  829  pkill nova
+  830  shutdown -h now
+  831  systemctl restart rabbitmq-server.service 
+  832  echo $?
+  833  tail /var/log/messages
+  834  tail -f /var/log/messages
+  835  pkill nova
+  836  shutdown -h now
+  837  tail -f /var/log/messages
+  838  vim /etc/nova/nova.conf 
+  839  tail -f /var/log/messages
+  840  ls
+  841  cd openstack/
+  842  ls
+  843  . admin-openrc 
+  844  tail -f /var/log/messages
+  845  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  846  top
+  847  tail -f /var/log/messages
+  848  tail -f /var/log/nova/nova-compute.log 
+  849  shutdown -h now
+  850  systemctl stop openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  851  top
+  852  ping localhost
+  853  vim /etc/hosts
+  854  vim /etc/nova/nova.conf 
+  855  rabbitmqctl status
+  856  cd /var/lib/rabbitmq/mnesia/
+  857  ls
+  858  vim rabbit@controller
+  859  cd rabbit@controller
+  860  ls
+  861  cd ..
+  862  ls
+  863  rabbitmqctl list_users
+  864  rabbitmqctl change_password guest 1
+  865  top
+  866  tail -f /var/log/messages
+  867  ls
+  868  cd rabbit@localhost
+  869  s
+  870  ls
+  871  vim rabbit_user.DCD 
+  872  cd ..
+  873  ls
+  874  ps -ef | grep rabbitmq
+  875  rabbitmqctl change_password guest RABBIT_PASS
+  876  systemctl restart rabbitmq-server.service 
+  877  tail -f /var/log/nova/nova-compute.log 
+  878  ls
+  879  tail -f /var/log/nova/nova-compute.log 
+  880  ls
+  881  vim rabbit@controller.pid 
+  882  ps -ef | grep rabbitmq
+  883  ls
+  884  cat rabbit@localhost.pid 
+  885  ps -ef|grep 976
+  886  tail /var/log/rabbitmq/rabbit@controller.log rabbit@
+  887  tail /var/log/rabbitmq/rabbit@controller.log 
+  888  rabbitmqctl  change_password  Username  RABBIT_PASS
+  889  rabbitmqctl  change_password  openstack RABBIT_PASS
+  890  rabbitmqctl add_user openstack RABBIT_PASS
+  891  rabbitmqctl set_permissions openstack ".*" ".*" ".*"
+  892  tail /var/log/rabbitmq/rabbit@controller.log 
+  893  tail -f /var/log/nova/nova-compute.log 
+  894  systemctl start openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  895  echo $?
+  896  openstack compute service list
+  897  cd /home/chy/openstack/
+  898  . admin-openrc 
+  899  openstack compute service list
+  900  shutdown -h now
+  901  openstack compute service list
+  902  cd openstack/
+  903  . admin-openrc 
+  904  openstack compute service list
+  905  tail /var/log/nova/nova-cert.log 
+  906  tail -f /var/log/nova/nova-cert.log 
+  907  data
+  908  date
+  909  tail -f /var/log/nova/nova-cert.log 
+  910  top
+  911  tail -f /var/log/nova/nova-compute.log 
+  912  vim /etc/nova/nova.conf 
+  913  openstack compute service list
+  914  nova-manage shell python
+  915  systemctl status openstack-nova-compute.service 
+  916  yum -y install openstack-nova-placement-api
+  917  openstack user create --domain default --password-prompt placement
+  918  openstack role add --project service --user placement admin
+  919  openstack service create --name placement --description "OpenStack Placement" placement
+  920  openstack endpoint create --region RegionOne placement admin http://controller:8778
+  921  openstack catalog list
+  922  openstack endpoint create --region RegionOne placement internal http://controller:8778
+  923  vim /etc/nova/nova.conf 
+  924  systemctl restart openstack-nova-compute.service
+  925  systemctl status openstack-nova-compute.service
+  926  top
+  927  ls
+  928  rabbitmqctl status
+  929  tail /var/log/rabbitmq/rabbit@controller.log 
+  930  ls
+  931  openstack compute service list
+  932  tail -f/var/log/nova/nova-cert.log 
+  933  tail -f /var/log/nova/nova-cert.log 
+  934  systemctl restart openstack-nova-api.service   openstack-nova-cert.service openstack-nova-consoleauth.service   openstack-nova-scheduler.service openstack-nova-conductor.service   openstack-nova-novncproxy.service
+  935  openstack compute service list
+  936  top
+  937  cat /proc/cpuinfo |grep "phy"
+  938  tail -f /var/log/nova/nova-cert.log 
+  939  systemctl status openstack-nova-cert.service 
+  940  shutdown -h now
+  941  tail -f /var/log/messages
+  942  top
+  943  mysql -u root -o
+  944  mysql -u root -p
+  945  ls
+  946  cd openstack/
+  947  ls
+  948  . admin-openrc 
+  949  openstack user list
+  950  openstack role add --project service --user neutron admin
+  951  openstack service list
+  952  openstack catalog list
+  953  yum install openstack-neutron openstack-neutron-ml2   openstack-neutron-linuxbridge python-neutronclient ebtables ipset
+  954  yum update
+  955  ps -ef|grep 4347
+  956  kill -9 4347
+  957  yum install openstack-neutron openstack-neutron-ml2   openstack-neutron-linuxbridge python-neutronclient ebtables ipset
+  958  vim /etc/neutron/neutron.conf 
+  959  vim /etc/nova/nova.conf 
+  960  vim /etc/neutron/neutron.conf 
+  961  vim /etc/neutron/plugins/ml2/ml2_conf.ini 
+  962  vim /etc/neutron/plugins/ml2/linuxbridge_agent.ini 
+  963  ifconfig 
+  964  vim /etc/neutron/plugins/ml2/linuxbridge_agent.ini 
+  965  vim /etc/neutron/dhcp_agent.ini 
+  966  vim /etc/nova/nova.conf 
+  967  vim /etc/neutron/metadata_agent.ini 
+  968  vim /etc/nova/nova.conf 
+  969  ln -s /etc/neutron/plugins/ml2/ml2_conf.ini /etc/neutron/plugin.ini
+  970  su -s /bin/sh -c "neutron-db-manage --config-file /etc/neutron/neutron.conf \
+  971    --config-file /etc/neutron/plugins/ml2/ml2_conf.ini upgrade head" neutron
+  972  systemctl restart openstack-nova-api.service
+  973  systemctl enable neutron-server.service   neutron-linuxbridge-agent.service neutron-dhcp-agent.service   neutron-metadata-agent.service
+  974  systemctl start neutron-server.service   neutron-linuxbridge-agent.service neutron-dhcp-agent.service   neutron-metadata-agent.service
+  975  echo $?
+  976  top
+  977  tail -f /var/log/messages
+  978  top
+  979  systemctl stop neutron-server.service   neutron-linuxbridge-agent.service neutron-dhcp-agent.service   neutron-metadata-agent.service
+  980  top
+  981  tail /var/log/neutron/server.log 
+  982  tail 50 /var/log/neutron/server.log 
+  983  vim /var/log/neutron/server.log 
+  984  vim /var/log/neutron/dhcp-agent.log 
+  985  vim /etc/neutron/neutron.conf 
+  986  su -s /bin/sh -c "neutron-db-manage --config-file /etc/neutron/neutron.conf \
+  987    --config-file /etc/neutron/plugins/ml2/ml2_conf.ini upgrade head" neutron
+  988  systemctl start neutron-server.service   neutron-linuxbridge-agent.service neutron-dhcp-agent.service   neutron-metadata-agent.service
+  989  echo $?
+  990  top
+  991  neutron ext-list
+  992  shutdown -h now
+  993  abrt-cli list --since 1489730137
+  994  vim /etc/neutron/neutron.conf 
+  995  data
+  996  date
+  997  ls
+  998  history 
+  999  history |cut -c 8-|sort|uniq -dc|sort -rn -k1 |head -3
+ 1000  history |cut -c 8-|sort|uniq -dc|sort -rn -k1 |head -3 > /home/chy/Desktop/
+ 1001  history |cut -c 8-|sort|uniq -dc|sort -rn -k1 |head -3 > /home/chy/Desktop/data
+ 1002  ls
+ 1003  history  > /home/chy/Desktop/data

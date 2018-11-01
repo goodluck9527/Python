@@ -1,0 +1,16 @@
+##Progress
+##import time
+##scale = 20
+##print("-----执行开始------")
+##for i in range(scale + 1):
+##	a, b = '**' * i, '..' * (scale - i)
+##	c = (i / scale) * 100
+##	print ("%{:^3.0f}[{}->{}]".format(c, a, b))
+##	time.sleep(0.1)
+##print("-----执行结束------")
+
+##example
+##from tqdm import *
+##from time import *
+##for i in tqdm(range(1, 50)):
+##	sleep(0.01)

@@ -59,32 +59,12 @@ def explore_match(win, img1, img2, kp_pairs, status = None, H = None):
 
     cv2.imshow(win, vis)
 
-# img1 = cv2.imread("F:/Picture/01e8aa34349b033b19617a091fce36d3d739bdbf.jpg")
-# img2 = cv2.imread("F:/Picture/01e8aa34349b033b19617a091fce36d3d739bdbf.jpg")
+img1 = cv2.imread("F:/Picture/01e8aa34349b033b19617a091fce36d3d739bdbf.jpg")
+img2 = cv2.imread("F:/Picture/01e8aa34349b033b19617a091fce36d3d739bdbf.jpg")
 
-img1 = cv2.imread("F:/Common Files/课程/科研项目开发实践/glasses_left.jpg")
-img2 = cv2.imread("F:/Common Files/课程/科研项目开发实践/glasses_right.jpg")
-#
-# img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
-# img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
-#
-# # sift = cv2.SIFT()
-# sift = cv2.xfeatures2d.SIFT_create()
-#
-# kp1,des1 = sift.detectAndCompute(img1_gray, None)
-# kp2,des2 = sift.detectAndCompute(img2_gray, None)
-#
-# # BFmatcher with default parms
-# bf = cv2.BFMatcher(cv2.NORM_L2)
-# matches = bf.knnMatch(des1, des2, k=2)
-#
-#
-# p1,p2,kp_pairs = filter_matches(kp1,kp2,matches,ratio=0.5)
-# explore_match('matches', img1_gray,img2_gray,kp_pairs)
-# #img3 = cv2.drawMatchesKnn(img1_gray,kp1,img2_gray,kp2,good[:10],flag=2)
-#
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
+# img1 = cv2.imread("F:/Picture/glasses_left.jpg")
+# img2 = cv2.imread("F:/Picture/glasses_right.jpg")
 
-print(img1.shape)
-print(img2.shape)
+
+cv2.imshow("lena", img1)
+cv2.waitKey(0)
